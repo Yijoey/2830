@@ -1,0 +1,87 @@
+/* 	Created by Professor Wergeles at the University of Missouri 
+
+	References: 
+    	1) http://www.w3schools.com/css/css_font.asp
+
+*/ 
+
+body {
+	background-color: #EEE;
+	margin: 20px 0 0 0;
+}
+
+#title {
+	text-align: center;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 1.6em;	
+}
+
+#stage {
+	width: 800px;
+	height: 450px;
+	background-color: #D9F9DA;
+	border: 2px solid #555;
+	position: relative;
+    margin: 0 auto;
+}
+
+#photoMenu {
+	width: 240px;
+	height: 300px;
+	background-color: white;
+	border: 2px solid #555;
+    position: absolute;
+    top:50px;
+    left: 30px;
+    
+     overflow: hidden;
+}
+
+#photoMenu ul {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 1em;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+   
+    
+}
+
+#photoMenu li {
+	padding: 10px 0 10px 10px;
+	background-color: #dddddd;
+	border: 1px solid #bbbbbb;
+}
+#photoMenu li:hover{
+   
+    background-color: #eeeeee;
+
+}
+
+
+#photoTitle {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 1.2em;
+	
+}
+
+#photoDisplay {
+	background-color: white;
+	border: 2px solid #555;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    width: 450px;
+    height: 300px;
+	
+}
+
+#imageHolder {
+	width: 450px;
+	height: 300px;
+	
+}
